@@ -35,7 +35,7 @@ const CreateActivity = () => {
     difficulty: '',
     duration: '',
     season: '',
-    countries: 'Elige al menos un país'
+    countries: 'Selecciona al menos un país'
   })
 
   useEffect(() => {

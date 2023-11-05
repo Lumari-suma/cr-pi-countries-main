@@ -1,0 +1,20 @@
+.activityRenderContainer {
+    display: flex;
+    flex-wrap: wrap; /* Asegura que las tarjetas se envuelvan en nuevas filas cuando sea necesario */
+    justify-content: center; /* Centra las tarjetas horizontalmente en el contenedor */
+    gap: 15px; /* Espacio entre las tarjetas */
+  }
+  
+  .activityContainer {
+    width: calc(33.33% - 10px); /* Aproximadamente el 33.33% del ancho del contenedor padre con un margen entre las actividades */
+    max-width: 400px;
+    height: auto; /* Cambiado a "auto" para adaptarse al contenido */
+    padding: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.429);
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px; /* Espacio entre las tarjetas */
+  }
+

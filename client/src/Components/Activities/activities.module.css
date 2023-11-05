@@ -1,0 +1,27 @@
+.activitiesContainer {   
+    padding-top: 150px;
+    width: 100vw;
+    min-height: 100vh; /* Usamos min-height para asegurar que la imagen de fondo cubra la altura incluso con scroll */
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../../assets/ActivityBG.jpg);
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantiene la imagen fija mientras haces scroll */
+    position: relative;
+  }
+  
+
+
+/* .activitiesContainer{
+    padding-top: 150px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../../assets/Detail-BG.png);
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0
+} */

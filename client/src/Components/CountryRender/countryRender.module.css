@@ -1,0 +1,65 @@
+/* Estilo para el contenedor de países */
+.allCountries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Mostrar en 3 columnas */
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Agregando estilos para el contenedor del paginado y los botones */
+.renderContainer {
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.filterButtons {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Hace que los botones se envuelvan a la siguiente línea */
+    justify-content: center;
+}
+
+.filterButtons button {
+    font-size: 1rem;
+    background-color: rgb(162, 170, 145);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.filterButtons button:hover {
+    background-color: #585e5b;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para los botones de paginado */
+.filterButtons button:nth-child(3) {
+    background-color: rgb(199, 100, 0);
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* .allCountries{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.renderContainer{
+    margin: 150px auto;
+}
+
+.filterButtons{
+    margin: 15px;
+} */

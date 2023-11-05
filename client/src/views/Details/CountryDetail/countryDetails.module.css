@@ -1,0 +1,47 @@
+/* Estilos para el contenedor de detalles del país */
+/* Estilos para el contenedor de detalles del país */
+.countryDetails {
+  padding-top: 50px;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row; /* Alinea horizontalmente por defecto */
+  align-items: center;
+  background-image: url('../../../assets/ActivityBG.jpg');
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: center; /* Centra horizontalmente cuando no hay actividad */
+}
+
+/* Estilos para la sección de información del país */
+.countryInfo {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  background-color: rgba(144, 191, 49, 0.5);
+  padding: 20px;
+  border: 3px solid #fcfcfc;
+  border-radius: 30px;
+  align-items: center;
+  margin-left: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos para la sección de datos del país */
+.countryData {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 1px;
+  color: #fcfcfc;
+}
+
+/* Estilos para la imagen de la bandera */
+.flags {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+  

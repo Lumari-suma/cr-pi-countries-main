@@ -1,0 +1,63 @@
+/* Home.module.css */
+.home {
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(180deg, rgb(245, 222, 179) 0%, rgb(143, 191, 49) 50%);
+    display: flex;
+    justify-content: space-between; /* Coloca los filtros y los países uno al lado del otro */
+}
+
+.countriesContainer {
+    display: flex;
+    flex-direction: column; /* Alinea los países en una columna */
+    align-items: center; /* Centra los países verticalmente */
+    width: 80%; /* Ajusta el ancho de los países */
+    margin: 20px; /* Espacio entre los filtros y los países */
+}
+
+.homeFilters {
+    width: 20%; /* Ancho de los filtros */
+    position: sticky;
+    margin-top: 80px;
+    margin-left: 30px;
+    background: linear-gradient(180deg, rgba(144, 191, 49, 0.904) 0%, rgb(245, 222, 179) 50%); /* Fondo blanco para los filtros */
+    padding: 20px; /* Espaciado interno de los filtros */
+    border-radius: 10px; /* Bordes redondeados para los filtros */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave para los filtros */
+}
+
+/* Estilos para los select dentro de homeFilters */
+.homeFilters select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Estilos para los botones dentro de homeFilters */
+.homeFilters button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ff84;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilos para los botones:hover dentro de homeFilters */
+.homeFilters button:hover {
+    background-color: #00b351;
+}
+
+/* Agregado un estilo para los botones en el select para mayor coherencia en el diseño */
+.homeFilters select option {
+    background-color: white;
+    color: #333;
+}

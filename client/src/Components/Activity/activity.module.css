@@ -1,0 +1,45 @@
+.activityContainer{
+    width: 70%;
+    max-width: 400px;
+    height: auto;
+    padding: 10px 10px;
+    border: rgb(57, 56, 56) 3px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(191, 142, 118, 0.385);
+    color: rgb(81, 67, 67);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    float: left; /* Coloca las actividades una al lado de la otra */
+}
+
+.activityContainer img {
+  max-width: 100%; /* Ajustado al 100% para ser responsive */
+  height: auto; /* Cambiado a "auto" para mantener la proporción */
+}
+
+.activityData {
+ gap: 10px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos para el botón */
+.activityButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f86449; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  
+  
+  .activityButton:hover {
+    background-color: #b92929; 
+  }
+  

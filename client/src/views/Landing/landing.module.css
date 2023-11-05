@@ -1,0 +1,54 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+  place-items: center;
+  background-image: url('../../assets/Landing.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  overflow:hidden;
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  background-color: #ffb013c7; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; 
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: rgba(144, 191, 49, 0.845); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.button:active {
+  background-color: #98720bf0; 
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* Media Query para ajustar estilos en pantallas más pequeñas */
+@media (max-width: 768px) {
+  .container {
+      /* Modificar estilos para pantallas más pequeñas */
+      background-size: contain; /* Ajusta el tamaño para que quepa en la pantalla */
+  }
+
+  .button {
+      font-size: 1.5rem; /* Reducir el tamaño del botón */
+  }
+}

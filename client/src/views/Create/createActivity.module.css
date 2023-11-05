@@ -1,0 +1,71 @@
+.formContainer {
+    padding-top: 150px;
+    width: 100vw;
+    min-height: 100vh; /* Usamos min-height para asegurar que la imagen de fondo cubra la altura incluso con scroll */
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../../assets/CreateBG.jpg');
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantiene la imagen fija mientras haces scroll */
+    position: relative;   
+}
+
+.form {
+    display: grid;
+    background-color: #ffffff71;
+    margin: auto;
+    width: 80%;
+    max-width: 400px;
+    padding: 2em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgba(219, 219, 219, 0.3);
+    gap: 2em;  
+}
+
+.form_title{
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+    font-family: cursive;
+    color: brown;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.form_input{
+   width: 100%;
+   background: none;
+   color: #3e3e3e;
+   font-size: 0.8rem;
+   padding: .6em .3em;
+   border: none;
+   border-bottom: 2px solid  #625bbd7e;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.form_label{
+    display: flex;
+    color:  #575757;
+    cursor: pointer;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttonCrear{
+    background-color: rgba(144, 191, 49, 0.845); 
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border-radius: .5em;
+}
+
+.error{
+    display: flex;
+    color:  #bb2424;
+    cursor: pointer;
+    
+}
+
